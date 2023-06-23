@@ -121,7 +121,7 @@ public class SpringEscolaApplication implements CommandLineRunner {
 		}
 
 		Aluno alunoMaiorMedia = not.buscarAlunoComMaiorMedia();
-		System.out.println("####### Aluno com maior média: ");
+		System.out.println("####### Aluno com maior média de notas: ");
 		System.out.println("Nome: " + alunoMaiorMedia.getNome());
 		System.out.println("--------------------");
 
